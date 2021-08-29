@@ -5,6 +5,7 @@ _addon.language = 'english'
 _addon.commands = {'gravedigger, gd'}
 
 local packets = require('packets')
+require('tables')
 
 windower.register_event('incoming chunk', function(id,original,modified,injected,blocked)
   if id == 0x00E then
