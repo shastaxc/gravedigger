@@ -1,3 +1,4 @@
+-- Copyright © 2021-2022, Shasta
 _addon.name = 'gravedigger'
 _addon.author = 'Shasta'
 _addon.version = '0.1'
